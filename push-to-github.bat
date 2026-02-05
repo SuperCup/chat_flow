@@ -25,9 +25,9 @@ echo [4/6] Adding files...
 git add .
 
 echo [5/6] Committing...
-git commit -m "Initial commit: Vite + React category insight chat UI with Tailwind" 2>nul
+git commit -m "Update" 2>nul
 if errorlevel 1 (
-    echo No changes to commit, or already committed.
+    echo No new changes to commit.
 ) else (
     echo Commit created.
 )
